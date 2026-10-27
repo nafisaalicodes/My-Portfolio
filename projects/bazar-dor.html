@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="BazarDor — daily market price tracker for essential products in Bangladesh by Nafisa Ali. Built with Next.js, TypeScript, Tailwind CSS, Better Auth and MongoDB.">
+  <title>Bazar Dor — Project Details | Nafisa Ali</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="project-style.css">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <header class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="../index.html" class="nav-logo">NA<span>.</span></a>
+      <nav class="nav-links" id="navLinks">
+        <a href="../index.html" class="nav-link">Home</a>
+        <a href="../index.html#about" class="nav-link">About</a>
+        <a href="../index.html#skills" class="nav-link">Skills</a>
+        <a href="../index.html#projects" class="nav-link">Projects</a>
+        <a href="../index.html#contact" class="nav-link">Contact</a>
+      </nav>
+      <div class="nav-actions">
+        <a href="../Nafisa_Ali.pdf" download class="btn btn-primary btn-sm">
+          <i class="fas fa-download"></i> Download CV
+        </a>
+        <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- PROJECT HERO -->
+    <section class="project-hero">
+      <div class="project-hero-bg">
+        <div class="project-hero-orb project-hero-orb-1"></div>
+        <div class="project-hero-orb project-hero-orb-2"></div>
+        <div class="grid-lines"></div>
+      </div>
+      <div class="container">
+        <a href="../index.html#projects" class="back-link" id="bazardor-back-link">
+          <i class="fas fa-arrow-left"></i> Back to Projects
+        </a>
+        <div class="project-category-tag">Web Application · Price Tracker</div>
+        <h1><span class="gradient-text">Bazar Dor</span></h1>
+        <p class="project-hero-desc">
+          A daily market price tracking web application that helps users explore and compare the prices of essential products across different markets in Bangladesh, with price trend insights, category based browsing and a responsive experience on every device.
+        </p>
+        <div class="hero-action-row">
+          <a href="https://bazar-dor-nafisaali.vercel.app/" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-lg" id="bazardor-live-btn">
+            <i class="fas fa-external-link-alt"></i> View Live Demo
+          </a>
+          <a href="https://github.com/nafisaalicodes/Bazar-Dor.git" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-lg" id="bazardor-github-btn">
+            <i class="fab fa-github"></i> GitHub Repository
+          </a>
+        </div>
+        <div class="hero-tech-stack">
+          <span class="tech-pill"><i class="fas fa-bolt"></i> Next.js</span>
+          <span class="tech-pill"><i class="fab fa-react"></i> React</span>
+          <span class="tech-pill">TypeScript</span>
+          <span class="tech-pill">Tailwind CSS</span>
+          <span class="tech-pill"><i class="fas fa-lock"></i> Better Auth</span>
+          <span class="tech-pill"><i class="fas fa-database"></i> MongoDB</span>
+          <span class="tech-pill">▲ Vercel</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- SCREENSHOT -->
+    <section class="project-screenshot-section">
+      <div class="container">
+        <div class="project-screenshot-wrap">
+          <img src="../assets/Bazar Dor.png" alt="Bazar Dor Price Tracker Screenshot" loading="lazy">
+        </div>
+      </div>
+    </section>
+
+    <!-- DESCRIPTION & TECH STACK -->
+    <section class="content-section">
+      <div class="container">
+        <div class="content-grid">
+          <div>
+            <div class="section-label">Overview</div>
+            <h2>About the Project</h2>
+            <p><strong>BazarDor</strong> is a daily market price tracking web application designed to help users explore and compare the prices of essential products across different markets in Bangladesh.</p>
+            <p>It provides price trend insights, category based product browsing, and market wise price comparisons, so people can see what is getting more expensive or cheaper before they go shopping. Product details are protected behind authentication, with email/password, Google and GitHub signin.</p>
+            <p>The app is built with the Next.js App Router, TypeScript and Tailwind CSS, uses MongoDB for data, and is deployed on Vercel with a fully responsive interface for a smooth experience on all devices.</p>
+          </div>
+          <div>
+            <div class="section-label">Tech Stack</div>
+            <h2>Technologies Used</h2>
+            <div class="tech-detail-grid">
+              <div class="tech-detail-card"><div class="tech-icon">▲</div><span>Next.js</span></div>
+              <div class="tech-detail-card"><div class="tech-icon">⚛️</div><span>React</span></div>
+              <div class="tech-detail-card"><div class="tech-icon">🔷</div><span>TypeScript</span></div>
+              <div class="tech-detail-card"><div class="tech-icon">🎨</div><span>Tailwind CSS</span></div>
+              <div class="tech-detail-card"><div class="tech-icon">🔐</div><span>Better Auth</span></div>
+              <div class="tech-detail-card"><div class="tech-icon">🍃</div><span>MongoDB</span></div>
+              <div class="tech-detail-card"><div class="tech-icon">🚀</div><span>Vercel</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- KEY FEATURES -->
+    <section class="content-section" style="background: var(--bg-1);">
+      <div class="container">
+        <div class="section-label">Features</div>
+        <h2>Key Features</h2>
+        <div class="content-grid" style="margin-top: 2rem;">
+          <div class="challenge-list">
+            <div class="challenge-item">
+              <div class="challenge-num">✓</div>
+              <div>
+                <h4>Daily Price Tracking</h4>
+                <p>View today's prices of essential products in Bangladesh and monitor price changes to understand daily market trends.</p>
+              </div>
+            </div>
+            <div class="challenge-item">
+              <div class="challenge-num">✓</div>
+              <div>
+                <h4>Price Trend Highlights</h4>
+                <p>Explore the products with the highest price increases and decreases, with visual ▲ ▼ indicators.</p>
+              </div>
+            </div>
+            <div class="challenge-item">
+              <div class="challenge-num">✓</div>
+              <div>
+                <h4>Categories &amp; Sorting</h4>
+                <p>Browse products by category and sort them by price, from low to high or high to low.</p>
+              </div>
+            </div>
+          </div>
+          <div class="challenge-list">
+            <div class="challenge-item">
+              <div class="challenge-num">✓</div>
+              <div>
+                <h4>Market Price Comparison</h4>
+                <p>See minimum, maximum and average prices of each product and compare prices across different markets.</p>
+              </div>
+            </div>
+            <div class="challenge-item">
+              <div class="challenge-num">✓</div>
+              <div>
+                <h4>User Authentication</h4>
+                <p>Sign up and sign in with email and password, or use Google or GitHub via Better Auth.</p>
+              </div>
+            </div>
+            <div class="challenge-item">
+              <div class="challenge-num">✓</div>
+              <div>
+                <h4>Protected Product Details</h4>
+                <p>Detailed product pages are available only after signing in, secured with session management.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CHALLENGES -->
+    <section class="content-section">
+      <div class="container">
+        <div class="section-label">Challenges Faced</div>
+        <h2>What I Learned &amp; Overcame</h2>
+        <div class="challenge-list" style="margin-top: 2rem;">
+          <div class="challenge-item">
+            <div class="challenge-num">01</div>
+            <div>
+              <h4>Authentication &amp; Protected Routes</h4>
+              <p>Setting up Better Auth with email/password plus Google and GitHub OAuth, managing sessions, and restricting product detail pages to signed in users in the Next.js App Router.</p>
+            </div>
+          </div>
+          <div class="challenge-item">
+            <div class="challenge-num">02</div>
+            <div>
+              <h4>Modeling Price &amp; Market Data</h4>
+              <p>Designing MongoDB data for products, categories and multiple markets, and calculating daily change, minimum, maximum and average prices correctly.</p>
+            </div>
+          </div>
+          <div class="challenge-item">
+            <div class="challenge-num">03</div>
+            <div>
+              <h4>Market wise Price Comparison</h4>
+              <p>Presenting prices from different markets in a way that is easy to read and compare without overwhelming users with too much data.</p>
+            </div>
+          </div>
+          <div class="challenge-item">
+            <div class="challenge-num">04</div>
+            <div>
+              <h4>TypeScript &amp; Responsive UI</h4>
+              <p>Keeping data types consistent between the database, server and UI, and building a Tailwind CSS layout that works from small phones to large desktops.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FUTURE IMPROVEMENTS -->
+    <section class="content-section" style="background: var(--bg-1);">
+      <div class="container">
+        <div class="section-label">Future Plans</div>
+        <h2>Potential Improvements</h2>
+        <div class="improvement-list" style="margin-top: 2rem;">
+          <div class="improvement-item">
+            <div class="improvement-num">01</div>
+            <div>
+              <h4>Live Market Data Updates</h4>
+              <p>Automate daily price updates from reliable sources so the data always reflects the real market.</p>
+            </div>
+          </div>
+          <div class="improvement-item">
+            <div class="improvement-num">02</div>
+            <div>
+              <h4>Price History Charts</h4>
+              <p>Add weekly and monthly trend graphs for every product to show how prices change over time.</p>
+            </div>
+          </div>
+          <div class="improvement-item">
+            <div class="improvement-num">03</div>
+            <div>
+              <h4>Search &amp; Advanced Filters</h4>
+              <p>Add product search and filters by market, price range and biggest price change.</p>
+            </div>
+          </div>
+          <div class="improvement-item">
+            <div class="improvement-num">04</div>
+            <div>
+              <h4>Favorites &amp; Price Alerts</h4>
+              <p>Let signed in users save favorite products and get notified when a price goes above or below a chosen value.</p>
+            </div>
+          </div>
+          <div class="improvement-item">
+            <div class="improvement-num">05</div>
+            <div>
+              <h4>Bangla Language &amp; Admin Dashboard</h4>
+              <p>Add a Bangla / English toggle, and an admin dashboard for managing products, markets and daily prices.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECT LINKS -->
+    <section class="project-links-section">
+      <div class="container">
+        <div class="section-label">Explore</div>
+        <h2>See It in Action</h2>
+        <p>View the live project or explore the source code on GitHub.</p>
+        <div class="project-link-btns">
+          <a href="https://bazar-dor-nafisaali.vercel.app/" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-lg" id="bazardor-bottom-live">
+            <i class="fas fa-external-link-alt"></i> Live Demo
+          </a>
+          <a href="https://github.com/nafisaalicodes/Bazar-Dor.git" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-lg" id="bazardor-bottom-github">
+            <i class="fab fa-github"></i> GitHub (Client)
+          </a>
+          <a href="../index.html#projects" class="btn btn-outline btn-lg" id="bazardor-see-more">
+            <i class="fas fa-th"></i> More Projects
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <p>© 2026 <strong>Nafisa Ali</strong>. All rights reserved.</p>
+      <div class="footer-socials">
+        <a href="https://github.com/nafisaalicodes" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/nafisa-ali-cse/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://www.facebook.com/nafisa.ali.37625843" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    const hamburger = document.getElementById('hamburger');
+    const navLinks = document.getElementById('navLinks');
+    hamburger.addEventListener('click', () => {
+      hamburger.classList.toggle('active');
+      navLinks.classList.toggle('open');
+    });
+    document.querySelectorAll('.nav-link').forEach(link => {
+      link.addEventListener('click', () => {
+        hamburger.classList.remove('active');
+        navLinks.classList.remove('open');
+      });
+    });
+  </script>
+</body>
+</html>

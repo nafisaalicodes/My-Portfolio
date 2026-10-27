@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Dev Stack Builder — A React + TypeScript app to explore and build custom tech stacks. Project by Nafisa Ali.">
+  <title>Dev Stack Builder — Project Details | Nafisa Ali</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="project-style.css">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <header class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="../index.html" class="nav-logo">NA<span>.</span></a>
+      <nav class="nav-links" id="navLinks">
+        <a href="../index.html" class="nav-link">Home</a>
+        <a href="../index.html#about" class="nav-link">About</a>
+        <a href="../index.html#skills" class="nav-link">Skills</a>
+        <a href="../index.html#projects" class="nav-link">Projects</a>
+        <a href="../index.html#contact" class="nav-link">Contact</a>
+      </nav>
+      <div class="nav-actions">
+        <a href="../Nafisa_Ali.pdf" download class="btn btn-primary btn-sm">
+          <i class="fas fa-download"></i> Download CV
+        </a>
+        <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- PROJECT HERO -->
+    <section class="project-hero">
+      <div class="project-hero-bg">
+        <div class="project-hero-orb project-hero-orb-1"></div>
+        <div class="project-hero-orb project-hero-orb-2"></div>
+        <div class="grid-lines"></div>
+      </div>
+      <div class="container">
+        <a href="../index.html#projects" class="back-link" id="devstack-back-link">
+          <i class="fas fa-arrow-left"></i> Back to Projects
+        </a>
+        <div class="project-category-tag">React Application · TypeScript</div>
+        <h1><span class="gradient-text">Dev Stack Builder</span></h1>
+        <p class="project-hero-desc">
+          An interactive React web application for exploring development technologies and building personalized custom tech stacks. Features dynamic filtering, category browsing, and a real time stack builder with TypeScript for type safety.
+        </p>
+        <div class="hero-action-row">
+          <a href="https://dev-stack-nafisaali.netlify.app/" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-lg" id="devstack-live-btn">
+            <i class="fas fa-external-link-alt"></i> View Live Demo
+          </a>
+          <a href="https://github.com/nafisaalicodes/Dev-stack-Assignment-5-.git" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-lg" id="devstack-github-btn">
+            <i class="fab fa-github"></i> GitHub Repository
+          </a>
+        </div>
+        <div class="hero-tech-stack">
+          <span class="tech-pill"><i class="fab fa-react"></i> React</span>
+          <span class="tech-pill">🔷 TypeScript</span>
+          <span class="tech-pill">🌊 Tailwind CSS</span>
+          <span class="tech-pill">🔥 Vite</span>
+          <span class="tech-pill">🚀 Netlify</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- SCREENSHOT -->
+    <section class="project-screenshot-section">
+      <div class="container">
+        <div class="project-screenshot-wrap">
+          <img src="../assets/Dev Stack.png" alt="Dev Stack Builder Application Screenshot" loading="lazy">
+        </div>
+      </div>
+    </section>
+
+    <!-- DESCRIPTION & TECH STACK -->
+    <section class="content-section">
+      <div class="container">
+        <div class="content-grid">
+          <div>
+            <div class="section-label">Overview</div>
+            <h2>About the Project</h2>
+            <p>Dev Stack Builder is a <strong>React + TypeScript</strong> SPA (Single Page Application) that allows developers to explore various technologies and build their own custom technology stacks interactively. Users can browse technologies by category, view detailed descriptions, and add them to their personalized stack.</p>
+            <p>This project was built as part of a programming assignment to demonstrate proficiency in <strong>React component architecture</strong>, <strong>TypeScript typing</strong>, and <strong>Tailwind CSS</strong> for rapid, utility first styling.</p>
+            <p>It's deployed on Netlify with automatic CI/CD from the GitHub repository, showcasing a real world modern development workflow with Vite as the build tool.</p>
+          </div>
+          <div>
+            <div class="section-label">Tech Stack</div>
+            <h2>Technologies Used</h2>
+            <div class="tech-detail-grid">
+              <div class="tech-detail-card">
+                <div class="tech-icon">⚛️</div>
+                <span>React 18</span>
+              </div>
+              <div class="tech-detail-card">
+                <div class="tech-icon">🔷</div>
+                <span>TypeScript</span>
+              </div>
+              <div class="tech-detail-card">
+                <div class="tech-icon">🌊</div>
+                <span>Tailwind CSS</span>
+              </div>
+              <div class="tech-detail-card">
+                <div class="tech-icon">🔥</div>
+                <span>Vite</span>
+              </div>
+              <div class="tech-detail-card">
+                <div class="tech-icon">🎣</div>
+                <span>React Hooks</span>
+              </div>
+              <div class="tech-detail-card">
+                <div class="tech-icon">🚀</div>
+                <span>Netlify</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- KEY FEATURES -->
+    <section class="content-section" style="background: var(--bg-1);">
+      <div class="container">
+        <div class="section-label">Features</div>
+        <h2>Key Features</h2>
+        <div class="content-grid" style="margin-top: 2rem;">
+          <div class="challenge-list">
+            <div class="challenge-item">
+              <div class="challenge-num">✓</div>
+              <div>
+                <h4>Technology Explorer</h4>
+                <p>Browse a curated list of technologies across multiple categories including Frontend, Backend, Database, DevOps, and Mobile.</p>
+              </div>
+            </div>
+            <div class="challenge-item">
+              <div class="challenge-num">✓</div>
+              <div>
+                <h4>Custom Stack Builder</h4>
+                <p>Add technologies to your personalized stack, view selected items in a dedicated panel, and remove them with one click.</p>
+              </div>
+            </div>
+            <div class="challenge-item">
+              <div class="challenge-num">✓</div>
+              <div>
+                <h4>Category Filtering</h4>
+                <p>Filter technologies by category (Frontend, Backend, Database, Tools) with an intuitive tab based interface.</p>
+              </div>
+            </div>
+          </div>
+          <div class="challenge-list">
+            <div class="challenge-item">
+              <div class="challenge-num">✓</div>
+              <div>
+                <h4>TypeScript Type Safety</h4>
+                <p>Fully typed component props, state interfaces, and data models using TypeScript for reliable, maintainable code.</p>
+              </div>
+            </div>
+            <div class="challenge-item">
+              <div class="challenge-num">✓</div>
+              <div>
+                <h4>React Component Architecture</h4>
+                <p>Clean, reusable React components with proper separation of concerns and custom hooks for state management.</p>
+              </div>
+            </div>
+            <div class="challenge-item">
+              <div class="challenge-num">✓</div>
+              <div>
+                <h4>Fast Build with Vite</h4>
+                <p>Lightning fast development environment and optimized production build using Vite bundler.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CHALLENGES -->
+    <section class="content-section">
+      <div class="container">
+        <div class="section-label">Challenges Faced</div>
+        <h2>What I Learned &amp; Overcame</h2>
+        <div class="challenge-list" style="margin-top: 2rem;">
+          <div class="challenge-item">
+            <div class="challenge-num">01</div>
+            <div>
+              <h4>TypeScript Interface Design</h4>
+              <p>Designing comprehensive TypeScript interfaces for technology data and component props was challenging but rewarding. Learning to properly type state, events, and component props improved code reliability significantly.</p>
+            </div>
+          </div>
+          <div class="challenge-item">
+            <div class="challenge-num">02</div>
+            <div>
+              <h4>Complex State Management</h4>
+              <p>Managing the selected stack state across multiple components — add, remove, and clear operations — required careful thinking about unidirectional data flow in React without over engineering the solution.</p>
+            </div>
+          </div>
+          <div class="challenge-item">
+            <div class="challenge-num">03</div>
+            <div>
+              <h4>Intuitive UX for Stack Building</h4>
+              <p>Designing an intuitive user interface where users can easily understand how to browse, select, and manage technologies required multiple iterations of the layout and interaction design.</p>
+            </div>
+          </div>
+          <div class="challenge-item">
+            <div class="challenge-num">04</div>
+            <div>
+              <h4>Tailwind CSS Learning Curve</h4>
+              <p>Mastering Tailwind's utility first approach and knowing when to use custom CSS versus Tailwind utilities required practice and developing an intuition for the framework's constraints.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FUTURE IMPROVEMENTS -->
+    <section class="content-section" style="background: var(--bg-1);">
+      <div class="container">
+        <div class="section-label">Future Plans</div>
+        <h2>Potential Improvements</h2>
+        <div class="improvement-list" style="margin-top: 2rem;">
+          <div class="improvement-item">
+            <div class="improvement-num">01</div>
+            <div>
+              <h4>User Accounts &amp; Stack Saving</h4>
+              <p>Add authentication  so users can create accounts, save multiple named stacks, and share them with others via unique links.</p>
+            </div>
+          </div>
+          <div class="improvement-item">
+            <div class="improvement-num">02</div>
+            <div>
+              <h4>NPM Stats Integration</h4>
+              <p>Integrate the npm registry API to show real download numbers, GitHub stars, and weekly trends for each technology card.</p>
+            </div>
+          </div>
+          <div class="improvement-item">
+            <div class="improvement-num">03</div>
+            <div>
+              <h4>Technology Compatibility Suggestions</h4>
+              <p>Add an intelligent recommendation system that suggests compatible technologies based on what's already in the user's stack.</p>
+            </div>
+          </div>
+          <div class="improvement-item">
+            <div class="improvement-num">04</div>
+            <div>
+              <h4>Export Configuration Files</h4>
+              <p>Auto generate starter configuration files (package.json, tsconfig.json, .eslintrc) based on the selected stack for instant project bootstrapping.</p>
+            </div>
+          </div>
+          <div class="improvement-item">
+            <div class="improvement-num">05</div>
+            <div>
+              <h4>Community Reviews</h4>
+              <p>Allow developers to rate, review, and add tips for each technology to build a community driven knowledge base.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECT LINKS -->
+    <section class="project-links-section">
+      <div class="container">
+        <div class="section-label">Explore</div>
+        <h2>See It in Action</h2>
+        <p>Explore the live application or browse the source code on GitHub.</p>
+        <div class="project-link-btns">
+          <a href="https://dev-stack-nafisaali.netlify.app/" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-lg" id="devstack-bottom-live">
+            <i class="fas fa-external-link-alt"></i> Live Demo
+          </a>
+          <a href="https://github.com/nafisaalicodes/Dev-stack-Assignment-5-.git" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-lg" id="devstack-bottom-github">
+            <i class="fab fa-github"></i> GitHub (Client)
+          </a>
+          <a href="../index.html#projects" class="btn btn-outline btn-lg" id="devstack-see-more">
+            <i class="fas fa-th"></i> More Projects
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <p>© 2026 <strong>Nafisa Ali</strong>. All rights reserved.</p>
+      <div class="footer-socials">
+        <a href="https://github.com/nafisaalicodes" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/nafisa-ali-cse/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://www.facebook.com/nafisa.ali.37625843" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    const hamburger = document.getElementById('hamburger');
+    const navLinks = document.getElementById('navLinks');
+    hamburger.addEventListener('click', () => {
+      hamburger.classList.toggle('active');
+      navLinks.classList.toggle('open');
+    });
+    document.querySelectorAll('.nav-link').forEach(link => {
+      link.addEventListener('click', () => {
+        hamburger.classList.remove('active');
+        navLinks.classList.remove('open');
+      });
+    });
+  </script>
+</body>
+</html>

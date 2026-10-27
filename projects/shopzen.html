@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="ShopZen — E-commerce frontend project by Nafisa Ali. Built with HTML, CSS, and JavaScript during internship at Eutropia IT.">
+  <title>ShopZen — Project Details | Nafisa Ali</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="project-style.css">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <header class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="../index.html" class="nav-logo">NA<span>.</span></a>
+      <nav class="nav-links" id="navLinks">
+        <a href="../index.html" class="nav-link">Home</a>
+        <a href="../index.html#about" class="nav-link">About</a>
+        <a href="../index.html#skills" class="nav-link">Skills</a>
+        <a href="../index.html#projects" class="nav-link">Projects</a>
+        <a href="../index.html#contact" class="nav-link">Contact</a>
+      </nav>
+      <div class="nav-actions">
+        <a href="../Nafisa_Ali.pdf" download class="btn btn-primary btn-sm">
+          <i class="fas fa-download"></i> Download CV
+        </a>
+        <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- PROJECT HERO -->
+    <section class="project-hero">
+      <div class="project-hero-bg">
+        <div class="project-hero-orb project-hero-orb-1"></div>
+        <div class="project-hero-orb project-hero-orb-2"></div>
+        <div class="grid-lines"></div>
+      </div>
+      <div class="container">
+        <a href="../index.html#projects" class="back-link" id="shopzen-back-link">
+          <i class="fas fa-arrow-left"></i> Back to Projects
+        </a>
+        <div class="project-category-tag">Web Development · Internship Project</div>
+        <h1><span class="gradient-text">ShopZen</span></h1>
+        <p class="project-hero-desc">
+          A clean, responsive e-commerce frontend platform built during my 4 months Frontend Web Development internship at Eutropia IT. Features product listings, shopping cart UI, and a seamless user experience across all screen sizes.
+        </p>
+        <div class="hero-action-row">
+          <a href="https://nafisaalicodes.github.io/ShopZen-E-Commerce-Frontend-Project/" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-lg" id="shopzen-live-btn">
+            <i class="fas fa-external-link-alt"></i> View Live Demo
+          </a>
+          <a href="https://github.com/nafisaalicodes/ShopZen-E-Commerce-Frontend-Project.git" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-lg" id="shopzen-github-btn">
+            <i class="fab fa-github"></i> GitHub Repository
+          </a>
+        </div>
+        <div class="hero-tech-stack">
+          <span class="tech-pill"><i class="fab fa-html5"></i> HTML5</span>
+          <span class="tech-pill"><i class="fab fa-css3-alt"></i> CSS3</span>
+          <span class="tech-pill"><i class="fab fa-js"></i> JavaScript</span>
+          <span class="tech-pill">📱 Responsive Design</span>
+          <span class="tech-pill">🛒 E-Commerce</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- SCREENSHOT -->
+    <section class="project-screenshot-section">
+      <div class="container">
+        <div class="project-screenshot-wrap">
+          <img src="../assets/Shopzen.png" alt="ShopZen E-Commerce Website Screenshot" loading="lazy">
+        </div>
+      </div>
+    </section>
+
+    <!-- DESCRIPTION & TECH STACK -->
+    <section class="content-section">
+      <div class="container">
+        <div class="content-grid">
+          <div>
+            <div class="section-label">Overview</div>
+            <h2>About the Project</h2>
+            <p>ShopZen is a fully responsive e-commerce frontend application that I built during my internship at <strong>Eutropia IT</strong>. The project simulates a real-world online shopping experience with a focus on clean UI, smooth interactions, and mobile-first design principles.</p>
+            <p>The goal was to deliver a polished, pixel perfect shopping interface that works flawlessly across all device sizes — from mobile phones to large desktop screens.</p>
+            <p>Working on this project gave me hands on experience with professional web development workflows, team collaboration using Git and GitHub, and the discipline of writing clean, maintainable code for a real client product.</p>
+          </div>
+          <div>
+            <div class="section-label">Tech Stack</div>
+            <h2>Technologies Used</h2>
+            <div class="tech-detail-grid">
+              <div class="tech-detail-card">
+                <div class="tech-icon">🌐</div>
+                <span>HTML5</span>
+              </div>
+              <div class="tech-detail-card">
+                <div class="tech-icon">🎨</div>
+                <span>CSS3</span>
+              </div>
+              <div class="tech-detail-card">
+                <div class="tech-icon">⚡</div>
+                <span>JavaScript</span>
+              </div>
+              <div class="tech-detail-card">
+                <div class="tech-icon">📱</div>
+                <span>Flexbox/Grid</span>
+              </div>
+              <div class="tech-detail-card">
+                <div class="tech-icon">🗂️</div>
+                <span>localStorage</span>
+              </div>
+              <div class="tech-detail-card">
+                <div class="tech-icon">🔧</div>
+                <span>Git & GitHub</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- KEY FEATURES -->
+    <section class="content-section" style="background: var(--bg-1);">
+      <div class="container">
+        <div class="section-label">Features</div>
+        <h2>Key Features</h2>
+        <div class="content-grid" style="margin-top: 2rem;">
+          <div class="challenge-list">
+            <div class="challenge-item">
+              <div class="challenge-num">✓</div>
+              <div>
+                <h4>Responsive Product Grid</h4>
+                <p>Fully responsive product listing page with CSS Grid and Flexbox that adapts beautifully from mobile to desktop.</p>
+              </div>
+            </div>
+            <div class="challenge-item">
+              <div class="challenge-num">✓</div>
+              <div>
+                <h4>Shopping Cart UI</h4>
+                <p>Interactive cart functionality using Vanilla JavaScript and localStorage to persist cart items across page refreshes.</p>
+              </div>
+            </div>
+            <div class="challenge-item">
+              <div class="challenge-num">✓</div>
+              <div>
+                <h4>Mobile First Design</h4>
+                <p>Designed with a mobile first approach ensuring the best experience on all screen sizes from 320px to 1440px+.</p>
+              </div>
+            </div>
+          </div>
+          <div class="challenge-list">
+            <div class="challenge-item">
+              <div class="challenge-num">✓</div>
+              <div>
+                <h4>Smooth Hover Animations</h4>
+                <p>Product cards with smooth CSS transitions on hover — scale, shadow, and color effects for a premium feel.</p>
+              </div>
+            </div>
+            <div class="challenge-item">
+              <div class="challenge-num">✓</div>
+              <div>
+                <h4>Navigation & Search UI</h4>
+                <p>Clean navigation bar with category links, search bar, and cart icon with item count badge.</p>
+              </div>
+            </div>
+            <div class="challenge-item">
+              <div class="challenge-num">✓</div>
+              <div>
+                <h4>Cross Browser Compatible</h4>
+                <p>Tested and verified across Chrome, Firefox, Edge, and Safari for consistent rendering.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CHALLENGES -->
+    <section class="content-section">
+      <div class="container">
+        <div class="section-label">Challenges Faced</div>
+        <h2>What I Learned &amp; Overcame</h2>
+        <div class="challenge-list" style="margin-top: 2rem;">
+          <div class="challenge-item">
+            <div class="challenge-num">01</div>
+            <div>
+              <h4>Cart State Without a Framework</h4>
+              <p>Building a functional, persistent shopping cart using only Vanilla JavaScript and localStorage — without React's state management — required careful planning of data structures and event handling.</p>
+            </div>
+          </div>
+          <div class="challenge-item">
+            <div class="challenge-num">02</div>
+            <div>
+              <h4>Pixel Perfect Responsive Layouts</h4>
+              <p>Creating consistent, beautiful layouts across all device sizes without a CSS framework like Tailwind required deep understanding of CSS Grid, Flexbox, and media queries.</p>
+            </div>
+          </div>
+          <div class="challenge-item">
+            <div class="challenge-num">03</div>
+            <div>
+              <h4>Cross Browser Consistency</h4>
+              <p>Ensuring the UI rendered consistently across different browsers required vendor prefix handling and careful CSS fallbacks for older browser support.</p>
+            </div>
+          </div>
+      </div>
+    </section>
+
+    <!-- FUTURE IMPROVEMENTS -->
+    <section class="content-section" style="background: var(--bg-1);">
+      <div class="container">
+        <div class="section-label">Future Plans</div>
+        <h2>Potential Improvements</h2>
+        <div class="improvement-list" style="margin-top: 2rem;">
+          <div class="improvement-item">
+            <div class="improvement-num">01</div>
+            <div>
+              <h4>Migrate to React</h4>
+              <p>Rebuild the frontend using React with proper component architecture and state management for better scalability.</p>
+            </div>
+          </div>
+          <div class="improvement-item">
+            <div class="improvement-num">02</div>
+            <div>
+              <h4>Backend Integration</h4>
+              <p>Add a Node.js/Express backend with a MongoDB database to enable real product data, user accounts, and order management.</p>
+            </div>
+          </div>
+          <div class="improvement-item">
+            <div class="improvement-num">03</div>
+            <div>
+              <h4>User Authentication</h4>
+              <p>Implement user registration, login, and a persistent profile with order history and saved addresses.</p>
+            </div>
+          </div>
+          <div class="improvement-item">
+            <div class="improvement-num">04</div>
+            <div>
+              <h4>Payment Gateway</h4>
+              <p>Integrate a payment gateway  to enable real checkout and order processing.</p>
+            </div>
+          </div>
+          <div class="improvement-item">
+            <div class="improvement-num">05</div>
+            <div>
+              <h4>Product Search & Filtering</h4>
+              <p>Add advanced search with live filtering by category, price range, and ratings for a complete shopping experience.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECT LINKS -->
+    <section class="project-links-section">
+      <div class="container">
+        <div class="section-label">Explore</div>
+        <h2>See It in Action</h2>
+        <p>View the live project or explore the source code on GitHub.</p>
+        <div class="project-link-btns">
+          <a href="https://nafisaalicodes.github.io/ShopZen-E-Commerce-Frontend-Project/" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-lg" id="shopzen-bottom-live">
+            <i class="fas fa-external-link-alt"></i> Live Demo
+          </a>
+          <a href="https://github.com/nafisaalicodes/ShopZen-E-Commerce-Frontend-Project.git" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-lg" id="shopzen-bottom-github">
+            <i class="fab fa-github"></i> GitHub (Client)
+          </a>
+          <a href="../index.html#projects" class="btn btn-outline btn-lg" id="shopzen-see-more">
+            <i class="fas fa-th"></i> More Projects
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <p>© 2026 <strong>Nafisa Ali</strong>. All rights reserved.</p>
+      <div class="footer-socials">
+        <a href="https://github.com/nafisaalicodes" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/nafisa-ali-cse/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://www.facebook.com/nafisa.ali.37625843" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    const hamburger = document.getElementById('hamburger');
+    const navLinks = document.getElementById('navLinks');
+    hamburger.addEventListener('click', () => {
+      hamburger.classList.toggle('active');
+      navLinks.classList.toggle('open');
+    });
+    document.querySelectorAll('.nav-link').forEach(link => {
+      link.addEventListener('click', () => {
+        hamburger.classList.remove('active');
+        navLinks.classList.remove('open');
+      });
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="FitLog — A Next.js workout library app with exercise tracking and daily plans. Project by Nafisa Ali.">
+  <title>FitLog — Project Details | Nafisa Ali</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="project-style.css">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <header class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="../index.html" class="nav-logo">NA<span>.</span></a>
+      <nav class="nav-links" id="navLinks">
+        <a href="../index.html" class="nav-link">Home</a>
+        <a href="../index.html#about" class="nav-link">About</a>
+        <a href="../index.html#skills" class="nav-link">Skills</a>
+        <a href="../index.html#projects" class="nav-link">Projects</a>
+        <a href="../index.html#contact" class="nav-link">Contact</a>
+      </nav>
+      <div class="nav-actions">
+        <a href="../Nafisa_Ali.pdf" download class="btn btn-primary btn-sm">
+          <i class="fas fa-download"></i> Download CV
+        </a>
+        <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- PROJECT HERO -->
+    <section class="project-hero">
+      <div class="project-hero-bg">
+        <div class="project-hero-orb project-hero-orb-1"></div>
+        <div class="project-hero-orb project-hero-orb-2"></div>
+        <div class="grid-lines"></div>
+      </div>
+      <div class="container">
+        <a href="../index.html#projects" class="back-link" id="fitlog-back-link">
+          <i class="fas fa-arrow-left"></i> Back to Projects
+        </a>
+        <div class="project-category-tag">Next.js Application · REST API Integration</div>
+        <h1><span class="gradient-text">FitLog</span></h1>
+        <p class="project-hero-desc">
+          A modern workout library application built with Next.js 14 that lets users explore exercises, build daily workout plans, save their favorite exercises, and track completed workouts — all powered by a public REST API integration.
+        </p>
+        <div class="hero-action-row">
+          <a href="https://fit-log-project-next-js.vercel.app/" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-lg" id="fitlog-live-btn">
+            <i class="fas fa-external-link-alt"></i> View Live Demo
+          </a>
+          <a href="https://github.com/nafisaalicodes/FitLog-Project-Next.js-.git" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-lg" id="fitlog-github-btn">
+            <i class="fab fa-github"></i> GitHub Repository
+          </a>
+        </div>
+        <div class="hero-tech-stack">
+          <span class="tech-pill">⚡ Next.js 14</span>
+          <span class="tech-pill">🔷 TypeScript</span>
+          <span class="tech-pill">🌊 Tailwind CSS</span>
+          <span class="tech-pill">🔗 REST API</span>
+          <span class="tech-pill">▲ Vercel</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- SCREENSHOT -->
+    <section class="project-screenshot-section">
+      <div class="container">
+        <div class="project-screenshot-wrap">
+          <img src="../assets/Fitlog.png" alt="FitLog Workout Application Screenshot" loading="lazy">
+        </div>
+      </div>
+    </section>
+
+    <!-- DESCRIPTION & TECH STACK -->
+    <section class="content-section">
+      <div class="container">
+        <div class="content-grid">
+          <div>
+            <div class="section-label">Overview</div>
+            <h2>About the Project</h2>
+            <p>FitLog is a <strong>Next.js 14</strong> workout library application that integrates with a public exercise REST API to provide users with a rich fitness tracking experience. It was built to demonstrate proficiency in modern Next.js App Router architecture, server side data fetching, and complex state management.</p>
+            <p>Users can explore a vast library of exercises categorized by muscle group, create personalized daily workout plans, save favorite exercises using localStorage, and mark workouts as completed to track their fitness journey.</p>
+            <p>The project is deployed on <strong>Vercel</strong> — the optimal platform for Next.js applications — with automatic deployments from the GitHub repository.</p>
+          </div>
+          <div>
+            <div class="section-label">Tech Stack</div>
+            <h2>Technologies Used</h2>
+            <div class="tech-detail-grid">
+              <div class="tech-detail-card">
+                <div class="tech-icon">⚡</div>
+                <span>Next.js 14</span>
+              </div>
+              <div class="tech-detail-card">
+                <div class="tech-icon">🔷</div>
+                <span>TypeScript</span>
+              </div>
+              <div class="tech-detail-card">
+                <div class="tech-icon">🌊</div>
+                <span>Tailwind CSS</span>
+              </div>
+              <div class="tech-detail-card">
+                <div class="tech-icon">🔗</div>
+                <span>REST API</span>
+              </div>
+              <div class="tech-detail-card">
+                <div class="tech-icon">💾</div>
+                <span>localStorage</span>
+              </div>
+              <div class="tech-detail-card">
+                <div class="tech-icon">▲</div>
+                <span>Vercel</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- KEY FEATURES -->
+    <section class="content-section" style="background: var(--bg-1);">
+      <div class="container">
+        <div class="section-label">Features</div>
+        <h2>Key Features</h2>
+        <div class="content-grid" style="margin-top: 2rem;">
+          <div class="challenge-list">
+            <div class="challenge-item">
+              <div class="challenge-num">✓</div>
+              <div>
+                <h4>Exercise Library</h4>
+                <p>Browse hundreds of exercises fetched from a REST API, categorized by muscle group (Chest, Arms, Legs, Back, Core) with details and difficulty levels.</p>
+              </div>
+            </div>
+            <div class="challenge-item">
+              <div class="challenge-num">✓</div>
+              <div>
+                <h4>Daily Workout Planner</h4>
+                <p>Create and manage personalized daily workout plans by adding exercises from the library with custom sets and reps.</p>
+              </div>
+            </div>
+            <div class="challenge-item">
+              <div class="challenge-num">✓</div>
+              <div>
+                <h4>Save Favorites</h4>
+                <p>Save favorite exercises using localStorage for quick access, persisted across browser sessions without needing an account.</p>
+              </div>
+            </div>
+          </div>
+          <div class="challenge-list">
+            <div class="challenge-item">
+              <div class="challenge-num">✓</div>
+              <div>
+                <h4>Workout Tracking</h4>
+                <p>Mark individual exercises as completed during a workout session, with a progress indicator showing completion percentage.</p>
+              </div>
+            </div>
+            <div class="challenge-item">
+              <div class="challenge-num">✓</div>
+              <div>
+                <h4>Next.js App Router</h4>
+                <p>Built on Next.js 14's App Router with Server Components for optimal performance and data fetching patterns.</p>
+              </div>
+            </div>
+            <div class="challenge-item">
+              <div class="challenge-num">✓</div>
+              <div>
+                <h4>Fully Responsive</h4>
+                <p>Mobile first responsive design that works perfectly on all devices, from phones to large desktop monitors.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CHALLENGES -->
+    <section class="content-section">
+      <div class="container">
+        <div class="section-label">Challenges Faced</div>
+        <h2>What I Learned &amp; Overcame</h2>
+        <div class="challenge-list" style="margin-top: 2rem;">
+          <div class="challenge-item">
+            <div class="challenge-num">01</div>
+            <div>
+              <h4>Next.js App Router Architecture</h4>
+              <p>Understanding the new Next.js 14 App Router paradigm — including Server vs. Client Components, layouts, and nested routing — required a significant mindset shift from the older Pages Router approach.</p>
+            </div>
+          </div>
+          <div class="challenge-item">
+            <div class="challenge-num">02</div>
+            <div>
+              <h4>REST API Data Fetching &amp; Pagination</h4>
+              <p>Handling API rate limits, implementing efficient pagination for large exercise datasets, and managing loading/error states with Next.js's built in data fetching required careful implementation.</p>
+            </div>
+          </div>
+          <div class="challenge-item">
+            <div class="challenge-num">03</div>
+            <div>
+              <h4>State Persistence Across Pages</h4>
+              <p>Managing complex state like saved exercises, daily plans, and completed workouts across multiple pages — using localStorage — while keeping the UI in sync was architecturally challenging.</p>
+            </div>
+          </div>
+          <div class="challenge-item">
+            <div class="challenge-num">04</div>
+            <div>
+              <h4>TypeScript with Next.js</h4>
+              <p>Properly typing Next.js specific patterns like page params, server actions, and API response shapes required learning TypeScript patterns specific to the Next.js ecosystem.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FUTURE IMPROVEMENTS -->
+    <section class="content-section" style="background: var(--bg-1);">
+      <div class="container">
+        <div class="section-label">Future Plans</div>
+        <h2>Potential Improvements</h2>
+        <div class="improvement-list" style="margin-top: 2rem;">
+          <div class="improvement-item">
+            <div class="improvement-num">01</div>
+            <div>
+              <h4>User Authentication (NextAuth.js)</h4>
+              <p>Implement user authentication with NextAuth.js to allow users to create accounts and sync their workout data across devices.</p>
+            </div>
+          </div>
+          <div class="improvement-item">
+            <div class="improvement-num">02</div>
+            <div>
+              <h4>Backend Database Integration</h4>
+              <p>Replace localStorage with a proper database (PostgreSQL with Prisma or MongoDB) for persistent, cross device data storage tied to user accounts.</p>
+            </div>
+          </div>
+          <div class="improvement-item">
+            <div class="improvement-num">03</div>
+            <div>
+              <h4>Custom Workout Creator</h4>
+              <p>Add a drag and drop workout builder where users can create custom exercise sequences with sets, reps, rest times, and notes.</p>
+            </div>
+          </div>
+          <div class="improvement-item">
+            <div class="improvement-num">04</div>
+            <div>
+              <h4>Progress Analytics Dashboard</h4>
+              <p>Build a visual analytics dashboard with charts (Recharts) showing workout frequency, personal records, muscle group balance, and weekly progress.</p>
+            </div>
+          </div>
+          <div class="improvement-item">
+            <div class="improvement-num">05</div>
+            <div>
+              <h4>Workout Reminders &amp; Push Notifications</h4>
+              <p>Add a Progressive Web App (PWA) layer with push notification support for daily workout reminders and goal milestone alerts.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECT LINKS -->
+    <section class="project-links-section">
+      <div class="container">
+        <div class="section-label">Explore</div>
+        <h2>See It in Action</h2>
+        <p>Check out the live app or browse the source code on GitHub.</p>
+        <div class="project-link-btns">
+          <a href="https://fit-log-project-next-js.vercel.app/" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-lg" id="fitlog-bottom-live">
+            <i class="fas fa-external-link-alt"></i> Live Demo
+          </a>
+          <a href="https://github.com/nafisaalicodes/FitLog-Project-Next.js-.git" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-lg" id="fitlog-bottom-github">
+            <i class="fab fa-github"></i> GitHub (Client)
+          </a>
+          <a href="../index.html#projects" class="btn btn-outline btn-lg" id="fitlog-see-more">
+            <i class="fas fa-th"></i> More Projects
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <p>© 2026 <strong>Nafisa Ali</strong>. All rights reserved.</p>
+      <div class="footer-socials">
+        <a href="https://github.com/nafisaalicodes" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/nafisa-ali-cse/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://www.facebook.com/nafisa.ali.37625843" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    const hamburger = document.getElementById('hamburger');
+    const navLinks = document.getElementById('navLinks');
+    hamburger.addEventListener('click', () => {
+      hamburger.classList.toggle('active');
+      navLinks.classList.toggle('open');
+    });
+    document.querySelectorAll('.nav-link').forEach(link => {
+      link.addEventListener('click', () => {
+        hamburger.classList.remove('active');
+        navLinks.classList.remove('open');
+      });
+    });
+  </script>
+</body>
+</html>
